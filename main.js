@@ -37,7 +37,21 @@ function test(){
 }
 const test2 =(x,y)=>{
   console.log(x+y);
+
 }
+
+
+import mydefault, { testString ,testfun ,TestClass } from "./modul1.js";
+
+console.log(testString);
+console.log(testfun(5));
+let obj3 = new TestClass("maliha shahi");
+
+obj3.handleLog();
+console.log(mydefault);
+
+
+
 
 
 
