@@ -26,3 +26,18 @@ class  ColorReactangle extends Reactangle{
 
 var obj2= new ColorReactangle(200,100,"red");
 document.getElementById("myDiv").innerHTML=obj2.show();
+
+if(true){
+  let y=3
+  const z=7
+  var x=2
+}
+function test(){
+  console.log("in a funtion");
+}
+const test2 =(x,y)=>{
+  console.log(x+y);
+}
+
+
+
